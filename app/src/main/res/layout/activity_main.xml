@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:background="#6EAD96"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crop Image Application"
+        android:gravity="center"
+        android:textSize="19sp"
+        android:scaleX="1.1"
+        android:background="#53948A"
+        android:textStyle="bold"
+        android:textColor="#FAFAFC" />
+    <ImageView
+        android:id="@+id/img_crop"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Image"
+        android:textAllCaps="false"
+        android:textSize="21sp"
+        android:background="#357E68"
+        android:textColor="#F4F5F7"/>
+</LinearLayout>
